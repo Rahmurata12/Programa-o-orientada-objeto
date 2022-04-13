@@ -79,13 +79,13 @@ public class login extends JFrame {
 		contentPane.add(lblNewLabel_3_1);
 		
 		user = new JTextField();
-		user.setBounds(117, 141, 139, 20);
+		user.setBounds(117, 141, 139, 25);
 		contentPane.add(user);
 		user.setColumns(10);
 		
 		pass = new JTextField();
 		pass.setColumns(10);
-		pass.setBounds(117, 178, 139, 20);
+		pass.setBounds(117, 178, 139, 25);
 		contentPane.add(pass);
 		
 		JButton btnEntrar = new JButton("Entrar");
